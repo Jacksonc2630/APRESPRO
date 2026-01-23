@@ -1,9 +1,46 @@
-### Code for AP RESEARCH Study
+# Equitable Access to Urban Heat Adaptation Infrastructure and Heat Vulnerability in New York City
 
-Data availability:
-- [2020 Census Tracts from the City Government of NYC](https://data.cityofnewyork.us/City-Government/2020-Census-Tracts/63ge-mke6/about_data)
-- [2020 Census Tracts Shapefile from NYC Department of City Planning](https://www.nyc.gov/content/planning/pages/resources/datasets/census-tracts)
-- [2020 Neighborhood Tabulation Areas (NTAs) Shapefile from NYC Department of City Planning](https://www.nyc.gov/content/planning/pages/resources/datasets/neighborhood-tabulation)
-- [2020 Community Districts Shapefile from NYC Department of City Planning](https://www.nyc.gov/content/planning/pages/resources/datasets/community-districts)
-- [2020 Demographics by Neighborhood Tabulation Area (NTA) from Department for the Aging](https://www.nyc.gov/assets/dfta/downloads/pdf/reports/Demographics_by_NTA.pdf)
-- [2016-2020 Economic and Housing Data from NYC.GOV](https://a816-dohbesp.nyc.gov/IndicatorPublic/data-explorer/economic-conditions/?id=103#display=summary)
+## Project Overview
+
+This research examines how equitable access to urban heat adaptation infrastructure influences heat vulnerability in historically underserved neighborhoods of New York City.
+
+### Methodology
+
+**Composite Heat Vulnerability Index (CHVI):**
+- Heat Exposure (WBGT > 28°C)
+- Social Vulnerability (Poverty, Unemployment, Education, etc.)
+- Infrastructure Deficit (Cooling Centers, Green Spaces, Urban Design)
+
+### Folder Structure
+
+```
+APRESPRO/
+├── Code/
+│   ├── Notebooks/
+├── Data/
+│   ├── Raw/         
+│   └── Processed/     
+├── Outputs/ 
+│   └── Figures/
+│   └── Statistics/
+```
+
+### Notebooks
+
+Run in this order:
+1. `00_Initialization.ipynb` - Setup project
+2. `01_Preprocessing.ipynb` - Clean spatial data
+3. `02_Setup.ipynb` - Configure analysis parameters
+4. `03_DataImport.ipynb` - Load all datasets
+5. `04_WbgtCalculation.ipynb` - Calculate heat exposure
+6. `05_CompositeHeatVulnerabilityIndex.ipynb` - Compute CHVI and social vulnerability
+7. `06_AdaptiveCapacity.ipynb` - Measure infrastructure access
+8. `07_Visualization.ipynb` - Create maps and figures
+9. `08_SummaryStatistics.ipynb` - Generate final statistics
+
+### Data Availability
+
+### Acknowledgments
+
+
+
