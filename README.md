@@ -46,7 +46,6 @@ Run in this order:
 
 ### Data Availability
 
-- [2020 Census Tracts from the City Government of NYC](https://data.cityofnewyork.us/City-Government/2020-Census-Tracts/63ge-mke6/about_data)
 - [2020 Census Tracts Shapefile from NYC Department of City Planning](https://www.nyc.gov/content/planning/pages/resources/datasets/census-tracts)
 - [2020 Neighborhood Tabulation Areas (NTAs) Shapefile from NYC Department of City Planning](https://www.nyc.gov/content/planning/pages/resources/datasets/neighborhood-tabulation)
 - [2020 Community Districts Shapefile from NYC Department of City Planning](https://www.nyc.gov/content/planning/pages/resources/datasets/community-districts)
