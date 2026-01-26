@@ -1,0 +1,15 @@
+{
+    "project_root": "d:\\APRESPRO",
+    "paths": {
+        "data_raw": "d:\\APRESPRO\\Data\\Raw",
+        "data_processed": "d:\\APRESPRO\\Data\\Processed",
+        "outputs": "d:\\APRESPRO\\Outputs",
+        "figures": "d:\\APRESPRO\\Outputs\\Figures",
+        "statistics": "d:\\APRESPRO\\Outputs\\Statistics",
+        "climate": "d:\\APRESPRO\\Data\\Raw\\Climate",
+        "demographics": "d:\\APRESPRO\\Data\\Raw\\Demographics",
+        "infrastructure": "d:\\APRESPRO\\Data\\Raw\\Infrastructure",
+        "shapefiles": "d:\\APRESPRO\\Data\\Raw\\Shapefiles",
+        "redlining": "d:\\APRESPRO\\Data\\Raw\\Redlining"
+    }
+}
