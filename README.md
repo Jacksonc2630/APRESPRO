@@ -8,8 +8,8 @@ This research examines how equitable access to urban heat adaptation infrastruct
 
 **Composite Heat Vulnerability Index (CHVI):**
 - **Heat Exposure**: Measured using Wet Bulb Globe Temperature (WBGT > 28°C)
-- **Social Vulnerability**: Poverty rate, unemployment, education, age demographics, housing conditions
-- **Adaptive Capacity**: Access to cooling centers, green spaces, tree canopy coverage, urban design factors
+- **Social Vulnerability**: 12 factors simplified (excluding transportation) from the CDC Social Vulnerability Index (SVI) to measure community susceptibility to heat-related health impacts
+- **Adaptive Capacity**: Access to cooling centers, green spaces, and urban design factors
 
 ### Directory Structure
 
@@ -52,5 +52,6 @@ Run in this order:
 - [2020 Demographics by Neighborhood Tabulation Area (NTA) from Department for the Aging](https://www.nyc.gov/assets/dfta/downloads/pdf/reports/Demographics_by_NTA.pdf)
 - [2016-2020 Economic and Housing Data from NYC.GOV](https://a816-dohbesp.nyc.gov/IndicatorPublic/data-explorer/economic-conditions/?id=103#display=summary)
 - []()
-
+- []()
+- []()
 
