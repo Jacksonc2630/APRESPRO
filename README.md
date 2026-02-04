@@ -49,9 +49,6 @@ Run in this order:
 - [2020 Census Tracts Shapefile from NYC Department of City Planning](https://www.nyc.gov/content/planning/pages/resources/datasets/census-tracts)
 - [2020 Neighborhood Tabulation Areas (NTAs) Shapefile from NYC Department of City Planning](https://www.nyc.gov/content/planning/pages/resources/datasets/neighborhood-tabulation)
 - [2020 Community Districts Shapefile from NYC Department of City Planning](https://www.nyc.gov/content/planning/pages/resources/datasets/community-districts)
-- [2020 Demographics by Neighborhood Tabulation Area (NTA) from Department for the Aging](https://www.nyc.gov/assets/dfta/downloads/pdf/reports/Demographics_by_NTA.pdf)
-- [2016-2020 Economic and Housing Data from NYC.GOV](https://a816-dohbesp.nyc.gov/IndicatorPublic/data-explorer/economic-conditions/?id=103#display=summary)
 - [1982-2020 30 year nominal climate data from PRISM](https://prism.oregonstate.edu/normals/)
 - [2020 NYC Social Vulnerability from CDC/ATSDR Social Vulnerability Index](https://www.atsdr.cdc.gov/place-health/php/svi/svi-data-documentation-download.html?CDC_AAref_Val=https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html)
-- []()
-
+- [Histroical Redlining dating 1970s from NYC GOV](https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining/)
