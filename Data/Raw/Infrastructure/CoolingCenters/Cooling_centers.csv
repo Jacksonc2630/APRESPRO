@@ -1,0 +1,494 @@
+Facility name,Address,Borough,ZIP Code,Accessible,Facility type
+Stavros Niarchos Foundation Library (SNFL).,455 5 Av,Manhattan,10016,Yes,Library
+Bronx Center Library,310 East Kingsbridge Rd,Bronx,10458,Yes,Library
+Petco Turtle Bay,991 2 Ave,Manhattan,10022,Yes,Other
+Petco Forest Hills,9111 Metropolitan Ave,Queens,11374,Yes,Other
+Petco Jackson Heights,7507 31 Ave,Queens,11370,Yes,Other
+Petco Rego Park,6135 Junction Blvd,Queens,11374,Yes,Other
+Petco Gateway Brooklyn,528 Gateway Dr,Brooklyn,11239,Yes,Other
+Petco Union Square,44 Union Square East,Manhattan,10003,Yes,Other
+Petco Brooklyn Sunset Park,241 37 St,Brooklyn,11232,Yes,Other
+Petco Ave Y Sheepshead,1610 Ave Y,Brooklyn,11235,Yes,Other
+Petco 86th Lexington NY,1280 Lexington Ave,Manhattan,10028,Yes,Other
+Edie Windsor SAGE OAC -OLDER ADULTS ONLY,305 7th Ave,Manhattan,10001,Yes,Older Adult Center
+Roosevelt Island Library,524 Main St,Manhattan,10044,Yes,Library
+Jefferson Market Library,425 Avenue of the Americas,Manhattan,10011,Yes,Library
+Parkchester Library,1985 Westchester Av,Bronx,10462,Yes,Library
+Seward Park Library,192 East Broadway,Manhattan,10002,Yes,Library
+Grand Concourse Library,155 E 173 St,Bronx,10457,Yes,Library
+Central Library,89-11 Merrick Blvd,Queens,11411,Yes,Library
+Flushing Library,41-17 Main St,Queens,11355,Yes,Library
+Stephen A Schwarzman Building,476 5 Av,Manhattan,10018,Yes,Library
+Brooklyn Central Library,10 Grand Army Plz,Brooklyn,11238,No,Library
+Petco Little Neck,25451 Horace Harding Expy,Queens,11362,Yes,Other
+Petco Kingsbridge,193 W 237 St,Bronx,10463,Yes,Other
+Petco Charleston,165 Bricktown Way Suite 1C,Staten Island,10309,Yes,Other
+Petco College Point,13311 20 Ave,Queens,11356,Yes,Other
+New Dorp Library,309 New Dorp La,Staten Island,10306,Yes,Library
+Epiphany Library,228 E 23 St,Manhattan,10010,No,Library
+Harlem Library,9 W 124 St,Manhattan,10027,Yes,Library
+Sixty-Seventh Street Library,328 E 67 St,Manhattan,10065,Yes,Library
+Mosholu Library,285 E 205 St,Bronx,10467,Yes,Library
+Westchester Square Library,2521 Glebe Av,Bronx,10461,No,Library
+Yorkville Library,222 E 79 St,Manhattan,10021,No,Library
+South Beach Library,21-15 Robin Rd,Staten Island,10305,Yes,Library
+Mariners Harbor Library,206 South Av,Staten Island,10303,Yes,Library
+Harry Belafonte - 115th Street Library,203 W 115th St,Manhattan,10026,Yes,Library
+Webster Library,1465 York Av,Manhattan,10021,Yes,Library
+Ottendorfer Library,135 2 Av,Manhattan,10003,No,Library
+Stapleton,132 Canal St,Staten Island,10304,Yes,Library
+Mulberry Street Library,10 Jersey St,Manhattan,10012,Yes,Library
+Morris Park Library,985 Morris Park Av,Bronx,10462,Yes,Library
+New Amsterdam Branch Library,9 Murray St,Manhattan,10007,Yes,Library
+Columbus Library,742 10 Av,Manhattan,10019,Yes,Library
+Morrisania Library,610 E 169 St,Bronx,10456,Yes,Library
+St George Center Library,5 Central Av,Staten Island,10301,Yes,Library
+Inwood Library (Temporary Location),4857 Broadway,Manhattan,10034,Yes,Library
+Woodlawn Heights Library,4355 Katonah Av,Bronx,10470,Yes,Library
+Wakefield Library,4100 Lowerre Pl,Bronx,10466,Yes,Library
+Van Cortlandt Library,3882 Cannon Pl,Bronx,10463,Yes,Library
+Mott Haven Library,321 E 140 St,Bronx,10454,Yes,Library
+Kingsbridge Library,291 W 231 St,Bronx,10463,Yes,Library
+Todt Hill-Westerleigh Library,2550 Victory Blvd,Staten Island,10314,Yes,Library
+Charleston Library,225 Bricktown Way,Staten Island,10309,Yes,Library
+West Farms Library,2085 Honeywell Av,Bronx,10460,Yes,Library
+Bloomingdale Library,150 W 100 St,Manhattan,10025,Yes,Library
+Eastchester Library,1385 East Gun Hill Rd,Bronx,10469,Yes,
+Clason's Point Library,1215 Morrison Av,Bronx,10472,Yes,Library
+Jerome Park Library,118 Eames Pl,Bronx,10468,Yes,Library
+Ninety Sixth Street Library,112 E 96 St,Manhattan,10128,Yes,Library
+Washington Heights,1000 St Nicholas Av,Manhattan,10032,Yes,Library
+Macomb's Bridge Library,2633 Adam C Powell Blvd,Manhattan,10039,Yes,Library
+Chatham Square Library,33 East Broadway,Manhattan,10002,Yes,Library
+Tompkins Square Library,331 E 10 St,Manhattan,10009,Yes,Library
+Francis Martin Library,2150 University Av,Bronx,10453,Yes,Library
+High Bridge Library,78 W 168 St,Bronx,10452,Yes,Library
+Baychester Library,2049 Asch Loop North,Bronx,10475,Yes,Library
+Edenwald Library,1255 E 233 St,Bronx,10466,Yes,Library
+Riverside Library,127 Amsterdam Av,Manhattan,10023,Yes,Library
+St Agnes Library,444 Amsterdam Av,Manhattan,10024,Yes,Library
+Hamilton Grange Library,503 W 145 St,Manhattan,10031,Yes,Library
+George Bruce Library,518 W 125 St,Manhattan,10027,Yes,Library
+North Forest Park Library,98-27 Metropolitan Av,Queens,11375,Yes,Library
+Queens Village Library,94-11 217 St,Queens,11428,No,Library
+Howard Beach Library,92-06 156 Av,Queens,11414,Yes,Library
+Windsor Park Library,79-50 Bell Boulevard,Queens,11364,Yes,Library
+Kew Gardens Hills Library,72-33 Vleigh Place,Queens,11367,Yes,Library
+Middle Village Library,72-31 Metropolitan Av,Queens,11379,Yes,Library
+North Hills Library,57-04 Marathon Pkwy,Queens,11362,No,Library
+Woodside Library,54-22 Skillman Av,Queens,11377,Yes,Library
+Corona Library,38-23 104 St,Queens,11368,No,Library
+Douglaston-Little Neck Library,249-01 Northern Blvd,Queens,11362,No,Library
+JASA Bartow (Coop City NSC) -OLDER ADULTS ONLY,2049 Bartow Av,Bronx,10475,Yes,Older Adult Center
+South Hollis Library,204-01 Hollis Av,Queens,11412,Yes,Library
+Broad Channel Library,16-26 Crossbay Blvd,Queens,11693,No,Library
+McGoldrick Library,155-06 Roosevelt Av,Queens,11354,Yes,Library
+Rosedale Library,144-20 243 St,Queens,11422,No,Library
+Borough Park Library,1265 43 St,Brooklyn,11219,No,Library
+Poppenhusen Library,121-23 14 Av,Queens,11356,Yes,Library
+Baisley Park Library,117-11 Sutphin Blvd,Queens,11436,No,Library
+South Jamaica Library,108-41 Guy R Brewer Blvd,Queens,11433,Yes,Library
+Lefferts Library,103-34 Lefferts Blvd,Queens,11419,No,Library
+Senior Center @ St Peter's Church OAC -OLDER ADULTS ONLY,619 Lexington Av,Manhattan,10022,Yes,Older Adult Center
+RAIN Boston East OAC -OLDER ADULTS ONLY,3450 Boston Rd,Bronx,10469,Yes,Older Adult Center
+Center @ Lenox Hill (ISC) OAC -OLDER ADULTS ONLY,343 E 70 St,Manhattan,10021,Yes,Older Adult Center
+Food Bank For New York City OAC -OLDER ADULTS ONLY,252 W 116 St,Manhattan,10026,Yes,Older Adult Center
+Westbeth OAC -OLDER ADULTS ONLY,155 Bank St.,Manhattan,10014,Yes,Older Adult Center
+Great Kills Library,56 Giffords La,Staten Island,10308,Yes,Library
+City Island Library,320 City Island Av,Bronx,10464,Yes,Library
+West New Brighton Library,976 Castleton Av,Staten Island,10310,Yes,Library
+Tottenville Library,7430 Amboy Rd,Staten Island,10307,Yes,Library
+Dongan Hills Library,1617 Richmond Rd,Staten Island,10304,Yes,Library
+Castle Hill Library,947 Castle Hill Av,Bronx,10473,Yes,Library
+Huguenot Park Library,830 Huguenot Av,Staten Island,10312,Yes,Library
+Soundview Library,660 Soundview Av,Bronx,10473,Yes,Library
+Spuyten Duyvil Library,650 W 235 St,Bronx,10463,Yes,Library
+Riverdale Library,5540 Mosholu Av,Bronx,10471,Yes,Library
+Pelham Bay Library,3060 Middletown Rd,Bronx,10461,Yes,Library
+Throg's Neck Library,3025 Cross Bronx Exwy Ext,Bronx,10465,Yes,Library
+Richmondtown Library,200 Clarke Av,Staten Island,10306,Yes,Library
+Battery Park City Library,175 North End Av,Manhattan,10282,Yes,Library
+Fifty Eighth Street Library,127 E 58 St,Manhattan,10022,Yes,Library
+Pomonok Library,158-21 Jewel Av,Queens,11365,No,Library
+Midwood Library,975 E 16 St,Brooklyn,11230,Yes,Library
+Jamaica Bay Library,9727 Seaview Av,Brooklyn,11236,Yes,Library
+East Flatbush Library,9612 Church Av,Brooklyn,11212,Yes,Library
+East Elmhurst Library,95-06 Astoria Blvd,Queens,11369,Yes,Library
+Fort Hamilton Library,9424 4 Av,Brooklyn,11209,Yes,Library
+Walt Whitman Library,93 St Edwards St,Brooklyn,11205,No,Library
+Peninsula Library,92-25 Rockaway Beach Blvd,Queens,11693,Yes,Library
+Ozone Park Library,92-24 Rockaway Blvd,Queens,11417,Yes,Library
+Rego Park Library,91-41 63 Dr,Queens,11374,Yes,Library
+Adams Street Library,9 Adams Street,Brooklyn,11201,Yes,Library
+Elmhurst Library,86-07 Broadway,Queens,11373,Yes,Library
+Briarwood Library,85-12 Main St,Queens,11435,No,Library
+Paerdegat Library,850 E 59 St,Brooklyn,11234,Yes,Library
+Dyker Library,8202 13 Av,Brooklyn,11228,Yes,Library
+Saratoga Library,8 Thomas S Boyland St,Brooklyn,11233,Yes,Library
+Dekalb Library,790 Bushwick Av,Brooklyn,11221,Yes,Library
+Woodstock Library,761 E 160th St Bronx NY 10456,Bronx,10456,Yes,Library
+Bay Ridge Library,7223 Ridge Blvd,Brooklyn,11209,Yes,Library
+Maspeth Library,69-70 Grand Av,Queens,11378,Yes,Library
+McKinley Park Library,6802 Fort Hamilton Pkwy,Brooklyn,11219,No,Library
+New Lots Library,665 New Lots Av,Brooklyn,11207,Yes,Library
+Hudson Park Library,66 Leroy St,Manhattan,10014,No,Library
+Marcy Library,617 DeKalb Av,Brooklyn,11216,Yes,Library
+Belmont Library,610 E 186 St,Bronx,10458,Yes,Library
+Stone Avenue Library,581 Mother Gaston Blvd,Brooklyn,11212,Yes,Library
+Crown Heights Library,560 New York Av,Brooklyn,11225,Yes,Library
+Hunters Point Library,47-40 Center Blvd,Queens,11109,No,Library
+Kips Bay Library,446 3 Av,Manhattan,10016,Yes,Library
+Park Slope Library,431 6 Av,Brooklyn,11215,Yes,Library
+Sunnyside Library,43-06 Greenpoint Av,Queens,11104,Yes,Library
+Kensington Library,4207 18th Av,Brooklyn,11218,Yes,Library
+Clinton Hill Library,380 Washington Av,Brooklyn,11238,Yes,Library
+Long Island City Library,37-44 21 St,Queens,11101,Yes,Library
+Kings Bay Library,3650 Nostrand Av,Brooklyn,11229,Yes,Library
+Washington Irving Library,360 Irving Av,Brooklyn,11237,Yes,Library
+Jackson Heights Library,35-51 81 St,Queens,11372,Yes,Library
+Bushwick Library,340 Bushwick Av,Brooklyn,11206,Yes,Library
+Mitchell-Linden Library,31-32 Union St,Queens,11354,Yes,Library
+Arverne Library,312 Beach 54 St,Queens,11692,Yes,Library
+Gravesend Library,303 Av X,Brooklyn,11223,Yes,Library
+Morningside Heights Library,2900 Broadway,Manhattan,10025,Yes,Library
+Brooklyn Heights Library,286 Cadman Plaza West,Brooklyn,11201,Yes,Library
+Gerritsen Beach Library,2808 Gerritsen Av,Brooklyn,11229,Yes,Library
+Allerton Library,2740 Barnes Av,Bronx,10467,Yes,Library
+Sheepshead Bay Library,2636 E 14 St,Brooklyn,11235,No,Library
+Ulmer Park Library,2602 Bath Ave,Brooklyn,11214,Yes,Library
+Glen Oaks Library,256-04 Union Turnpike,Queens,11004,Yes,Library
+Auburndale-Clearview Library,25-55 Francis Lewis Blvd,Queens,11358,Yes,Library
+Homecrest Library,2525 Coney Is Av,Brooklyn,11223,Yes,Library
+Bellerose Library,250-06 Hillside Av,Queens,11426,Yes,Library
+Pacific Library,25 4 Ave,Brooklyn,11217,No,Library
+Williamsburg Library,240 Division Av,Brooklyn,11211,Yes,Library
+Mill Basin Library,2385 Ralph Ave,Brooklyn,11234,Yes,Library
+Flatbush Library,22 Linden Blvd,Brooklyn,11226,Yes,Library
+Cambria Heights Library,218-13 Linden Blvd,Queens,11411,Yes,Library
+Pelham Parkway-Van Nest Library,2147 Barnes Av,Bronx,10462,Yes,Library
+Bayside Library,214-20 Northern Blvd,Queens,11361,Yes,Library
+Kings Highway Library,2115 Ocean Av,Brooklyn,11229,Yes,Library
+Flatlands Library,2065 Flatbush Av,Brooklyn,11234,Yes,Library
+Arlington Library,203 Arlington Av,Brooklyn,11207,No,Library
+Hollis Library,202-05 Hillside Av,Queens,11423,Yes,Library
+Ridgewood Library,20-12 Madison St,Queens,11385,Yes,Library
+East Flushing Library,196-36 Northern Blvd,Queens,11358,Yes,Library
+Fresh Meadows Library,193-20 Horace Harding Exwy,Queens,11365,Yes,Library
+St Albans Library,191-05 Linden Blvd,Queens,11412,Yes,Library
+Coney Island Library,1901 Mermaid Av,Brooklyn,11224,Yes,Library
+Tremont Library,1866 Washington Av,Bronx,10457,Yes,Library
+New Utrecht Library,1743 86 St,Brooklyn,11214,Yes,Library
+Sedgwick Library,1701 Dr M L King Jr Blvd,Bronx,10453,Yes,Library
+Rochdale Village Library,169-09 137 Av,Queens,11434,Yes,Library
+Highlawn Library,1664 W 13 St,Brooklyn,11223,Yes,Library
+Far Rockaway Library,1637 Central Avenue,Queens,11691,Yes,Library
+Windsor Terrace,160 E 5 St,Brooklyn,11218,Yes,Library
+Brighton Beach Library,16 Brighton First Road,Brooklyn,11235,Yes,Library
+Canarsie Library,1580 Rockaway Pkwy,Brooklyn,11236,Yes,Library
+Whitestone Library,151-10 14 Rd,Queens,11357,Yes,Library
+Astoria Library,14-01 Astoria Blvd,Queens,11102,No,Library
+Cortelyou Library,1305 Cortelyou Rd,Brooklyn,11226,Yes,Library
+South Ozone Park Library,128-16 Rockaway Blvd,Queens,11420,Yes,Library
+Spring Creek Library,12143 Flatlands Ave,Brooklyn,11207,Yes,Library
+Cypress Hills Library,1197 Sutter Av,Brooklyn,11208,Yes,Library
+Richmond Hill Library,118-14 Hillside Av,Queens,11418,No,Library
+Forest Hills Library,108-19 71 Av,Queens,11375,Yes,Library
+Greenpoint Library,107 Norman Av,Brooklyn,11222,Yes,Library
+Eastern Parkway Library,1044 Eastern Pkwy,Brooklyn,11213,Yes,Library
+Langston Hughes Library,100-01 Northern Blvd,Queens,11368,Yes,Library
+Rugby Library,1000 Utica Av,Brooklyn,11203,No,Library
+Brooklyn Museum,200 Eastern Pkwy,Brooklyn,11238,Yes,Other
+QCH Queens Center for Gay Seniors (QCGS) OAC -OLDER ADULTS ONLY,37-06 77th Street,Queens,11372,Yes,Older Adult Center
+Roundtable Senior OAC -OLDER ADULTS ONLY,1175 Gates Av,Brooklyn,11221,No,Older Adult Center
+SAGE Brooklyn Stonewall Older Adult Center -OLDER ADULTS ONLY,271 Myrtle Avenue,Brooklyn,11201,Yes,Older Adult Center
+SAGE Center Harlem OAC -OLDER ADULTS ONLY,220 West 143rd Street,Manhattan,10030,Yes,Older Adult Center
+SAGE Center Bronx at Crotona Pride House OAC -OLDER ADULTS ONLY,1784 Prospect Avenue,Bronx,10457,Yes,Older Adult Center
+Council of Peoples Organization: Halal OAC -OLDER ADULTS ONLY,1077 CONEY ISLAND AVENUE,Brooklyn,11230,Yes,Older Adult Center
+Office of Council Member Nantasha Williams,172-12 Linden Blvd,Queens,11434,Yes,Other
+New Beginnings (Riverdale Y) OAC -OLDER ADULTS ONLY,5625 Arlington Av,Bronx,10471,Yes,Older Adult Center
+Korean Community Services Flushing + Satellite MN9 OAC -OLDER ADULTS ONLY,42-15 166 St,Queens,11358,Yes,Older Adult Center
+Educational Alliance Sirovich OAC -OLDER ADULTS ONLY,331 E 12 St,Manhattan,10003,Yes,Older Adult Center
+RSS Center for Ageless Living OAC -OLDER ADULTS ONLY,2600 Netherland Av,Bronx,10463,Yes,Older Adult Center
+Bronxworks Sedgwick SC -OLDER ADULTS ONLY,1553 University Ave.,Bronx,10453,Yes,Older Adult Center
+Jamaica Muslim Center OAC -OLDER ADULTS ONLY,85-37 168th Street,Queens,11432,Yes,Older Adult Center
+Golden Phoenix 1 (ELMCOR NSC) -OLDER ADULTS ONLY,98-19 Astoria Blvd,Queens,11369,Yes,Older Adult Center
+Grace Agard Harewood OAC -OLDER ADULTS ONLY,966 Fulton St,Brooklyn,11238,Yes,Older Adult Center
+Hazel Brooks OAC -OLDER ADULTS ONLY,961 Ocean Ave.,Brooklyn,11226,Yes,Older Adult Center
+Saratoga Square Senior Center -OLDER ADULTS ONLY,930 Halsey St,Brooklyn,11233,Yes,Older Adult Center
+Allen AME Theodora Jackson Older Adult Center -OLDER ADULTS ONLY,92-47 165th St.,Queens,11433,Yes,Older Adult Center
+SHOPP Casa Boricua (OAC) -OLDER ADULTS ONLY,910 E 172 St,Bronx,10460,Yes,Older Adult Center
+Allen International Towers Affiliate Older Adult Center -OLDER ADULTS ONLY,90-20 170th Street,Queens,11432,No,Older Adult Center
+Shore Hill Older Adult Center -OLDER ADULTS ONLY,9000 Shore Rd,Brooklyn,11209,Yes,Older Adult Center
+Jamaica OAC -OLDER ADULTS ONLY,89-60 164th St.,Queens,11368,Yes,Older Adult Center
+Sumner Senior Club -OLDER ADULTS ONLY,862 Park Avenue,Brooklyn,11206,No,Older Adult Center
+Agudath Israel Brookdale OAC -OLDER ADULTS ONLY,817 Av H,Brooklyn,11230,Yes,Older Adult Center
+QCH Kew Gardens Community Center OAC -OLDER ADULTS ONLY,80-02 Kew Gardens Road,Queens,11415,Yes,Older Adult Center
+Lifelong Learning Center OAC -OLDER ADULTS ONLY,755 10th Avenue,Manhattan,10019,Yes,Older Adult Center
+Ocean Bay CDC OAC -OLDER ADULTS ONLY,74-16 Beach Channel Drive,Queens,11693,Yes,Older Adult Center
+BCA Dyker Heights Older Adult Center OAC -OLDER ADULTS ONLY,7201 8TH AVE,Brooklyn,11228,Yes,Older Adult Center
+Christopher Blenman OAC -OLDER ADULTS ONLY,720 East New York Av,Brooklyn,11203,Yes,Older Adult Center
+PSS Parkside OAC -OLDER ADULTS ONLY,644 Adee Av,Bronx,10467,Yes,Older Adult Center
+BCA Bensonhurst Older Adult Center OAC -OLDER ADULTS ONLY,6409 20TH AVE,Brooklyn,11204,Yes,Older Adult Center
+Wayside Out Tilden Senior Center -OLDER ADULTS ONLY,630 Mother Gaston Blvd,Brooklyn,11212,Yes,Older Adult Center
+AMICO 59th St Senior Citizen OAC -OLDER ADULTS ONLY,5901 13 Av,Brooklyn,11219,Yes,Older Adult Center
+Sam Field Older Adult Center -OLDER ADULTS ONLY,58-20 Little Neck Pkwy,Queens,11362,Yes,Older Adult Center
+Stuyvesant Heights OAC -OLDER ADULTS ONLY,562-574 Madison St.,Brooklyn,11221,Yes,Older Adult Center
+Wayside Out Tompkins Park Senior Center -OLDER ADULTS ONLY,550 Greene Av,Brooklyn,11216,Yes,Older Adult Center
+CPC NY Chinatown Neighborhood OAC -OLDER ADULTS ONLY,55 CHRYSTIE STREET,Manhattan,10002,Yes,Older Adult Center
+BCA 6th Avenue Older Adult Center -OLDER ADULTS ONLY,545 60 St,Brooklyn,11220,No,Older Adult Center
+FIND Aid Clinton OAC -OLDER ADULTS ONLY,530 W 55 St,Manhattan,10019,Yes,Older Adult Center
+Wayside Out Brownsville Social Club -OLDER ADULTS ONLY,528 Mother Gaston Blvd,Brooklyn,11212,No,Older Adult Center
+Woodside Older Adult Center -OLDER ADULTS ONLY,50-37 Newtown Rd,Queens,11377,Yes,Older Adult Center
+Crown Heights Preservation Committee Corporation NSC -OLDER ADULTS ONLY,483 Albany Av,Brooklyn,11203,Yes,Older Adult Center
+Bergen Basin Vandalia Older Adult Center -OLDER ADULTS ONLY,47 Vandalia Av,Brooklyn,11239,Yes,Older Adult Center
+Wayside Out Rosetta Gaston Senior Center -OLDER ADULTS ONLY,460 Dumont Av,Brooklyn,11212,Yes,Older Adult Center
+Times Plaza Center OAC -OLDER ADULTS ONLY,460 Atlantic Av,Brooklyn,11217,Yes,Older Adult Center
+Sunset Park OAC -OLDER ADULTS ONLY,4520 Fourth Av,Brooklyn,11220,Yes,Older Adult Center
+Hugh Gilroy OAC -OLDER ADULTS ONLY,447 Kingsborough 4 Walk,Brooklyn,11233,Yes,Older Adult Center
+Wagner Satellite OAC -OLDER ADULTS ONLY,435 E 120 St,Manhattan,10035,No,Older Adult Center
+Wayside Out Van Dyke II Senior Center -OLDER ADULTS ONLY,430 Dumont Av,Brooklyn,11212,Yes,Older Adult Center
+Hamilton Grange NSC -OLDER ADULTS ONLY,420 W 145 St,Manhattan,10031,Yes,Older Adult Center
+Stanley Isaacs NSC/Holmes OAC -OLDER ADULTS ONLY,415 E 93 St,Manhattan,10128,Yes,Older Adult Center
+CPC Brooklyn OAC -OLDER ADULTS ONLY,4101 8th Avenue,Brooklyn,11232,Yes,Older Adult Center
+Raices Bland Social Club OAC -OLDER ADULTS ONLY,40-15 College Pt Blvd,Queens,11354,No,Older Adult Center
+Maria Lawton OAC -OLDER ADULTS ONLY,400 Hart St,Brooklyn,11206,Yes,Older Adult Center
+Korean Community Services Corona OAC -OLDER ADULTS ONLY,37-06 111 St,Queens,11368,Yes,Older Adult Center
+Wayside Out Tompkins Louis Armstrong Center -OLDER ADULTS ONLY,360 Nostrand Avenue,Brooklyn,11216,No,Older Adult Center
+Bronxworks Twin Parks West OAC -OLDER ADULTS ONLY,355 East 183 Street,Bronx,10458,Yes,Older Adult Center
+MMCC-CDC OAC Main Building -OLDER ADULTS ONLY,3450 Dekalb Av,Bronx,10467,Yes,Older Adult Center
+Good Companions -OLDER ADULTS ONLY,334 Madison St.,Manhattan,10002,Yes,Older Adult Center
+FIND Aid Coffeehouse OAC -OLDER ADULTS ONLY,331 W 42 St,Manhattan,10036,Yes,Older Adult Center
+St Gabriels Episcopal Church OAC -OLDER ADULTS ONLY,331 Hawthorne St,Brooklyn,11225,Yes,Older Adult Center
+Remsen Sarita Jean OAC -OLDER ADULTS ONLY,3304 Clarendon Rd,Brooklyn,11203,Yes,Older Adult Center
+Independence Plaza OAC -OLDER ADULTS ONLY,310 Greenwich Street,Manhattan,10013,Yes,Older Adult Center
+ARC XVI Ft Washington OAC -OLDER ADULTS ONLY,309 AUDUBON AVE,Manhattan,10033,Yes,Older Adult Center
+Bergen Basin Marine Park OAC -OLDER ADULTS ONLY,3000 Fillmore Av,Brooklyn,11234,Yes,Older Adult Center
+Polo Grounds Satellite OAC -OLDER ADULTS ONLY,2965 8 Av,Manhattan,10039,Yes,Older Adult Center
+Prospect Hill OAC -OLDER ADULTS ONLY,283 Prospect Av,Brooklyn,11215,Yes,Older Adult Center
+RAICES WYCKOFF Gardens OAC -OLDER ADULTS ONLY,280 Wyckoff St,Brooklyn,11217,Yes,Older Adult Center
+Brevoort Senior Club OAC -OLDER ADULTS ONLY,280 Ralph Avenue,Brooklyn,11233,Yes,Older Adult Center
+Young Israel Wavecrest Baywater Senior League OAC -OLDER ADULTS ONLY,2716 Healy Av,Queens,11691,Yes,Older Adult Center
+Zest for Life OAC -OLDER ADULTS ONLY,261 East 21st Street,Brooklyn,11236,Yes,Older Adult Center
+Our Lady of Pompeii OAC -OLDER ADULTS ONLY,25 Carmine St,Manhattan,10014,Yes,Older Adult Center
+Sister Annunciata Bethell OAC -OLDER ADULTS ONLY,243 E 204 St,Bronx,10458,Yes,Older Adult Center
+Central Harlem SC Ctr Beatrice Lewis -OLDER ADULTS ONLY,2322 3 Av,Manhattan,10035,Yes,Older Adult Center
+CCNS Riverway OAC (ISC) -OLDER ADULTS ONLY,230 Riverdale Av,Brooklyn,11212,Yes,Older Adult Center
+JCCGCI Marlboro OAC -OLDER ADULTS ONLY,2298 W 8 St,Brooklyn,11223,Yes,Older Adult Center
+RAICES Farragut OAC -OLDER ADULTS ONLY,228 York St,Brooklyn,11201,No,Older Adult Center
+ABSW OAC -OLDER ADULTS ONLY,221 W 107 St,Manhattan,10025,Yes,Older Adult Center
+Bergen Basin Midwood OAC -OLDER ADULTS ONLY,2164 Ralph Av,Brooklyn,11234,Yes,Older Adult Center
+Raices Astoria NSC -OLDER ADULTS ONLY,21-21 30 Drive,Queens,11102,Yes,Older Adult Center
+Samuel Field Y Bay Terrace Older Adult Center -OLDER ADULTS ONLY,21200 23rd Avenue,Queens,11360,Yes,Older Adult Center
+Central Harlem St Nick OAC -OLDER ADULTS ONLY,210 West 131st Street,Manhattan,10027,No,Older Adult Center
+Bergen Basin Mill Basin OAC -OLDER ADULTS ONLY,2075 E 68 St,Brooklyn,11234,Yes,Older Adult Center
+JASA Williamsburg OAC -OLDER ADULTS ONLY,202 Graham Av,Brooklyn,11206,Yes,Older Adult Center
+Center on the Square OAC -OLDER ADULTS ONLY,20 Washington Square North,Manhattan,10011,Yes,Older Adult Center
+Educational Alliance Weinberg Older Adult Center -OLDER ADULTS ONLY,197 East Broadway,Manhattan,10002,Yes,Older Adult Center
+SBH Older Adult Center Senior Pavilion -OLDER ADULTS ONLY,1963 McDonald Avenue,Brooklyn,11223,Yes,Older Adult Center
+Albany OAC -OLDER ADULTS ONLY,196 Albany Av,Brooklyn,11213,Yes,Older Adult Center
+Grant Sq OAC -OLDER ADULTS ONLY,19 Grant Sq,Brooklyn,11216,Yes,Older Adult Center
+University Settlement OAC -OLDER ADULTS ONLY,189 Allen St,Manhattan,10002,No,Older Adult Center
+JCCGCI Kings Highway Older Adult Center -OLDER ADULTS ONLY,1879 East 3rd Street,Brooklyn,11223,Yes,Older Adult Center
+JASA Van Cortlandt OAC -OLDER ADULTS ONLY,185 West 231st St,Bronx,10463,Yes,Older Adult Center
+Council of Peoples Organization: Satellite -OLDER ADULTS ONLY,1814 Coney Island Ave,Brooklyn,11230,Yes,Older Adult Center
+NYFSC Mott Street OAC -OLDER ADULTS ONLY,180 Mott St,Manhattan,10012,Yes,Older Adult Center
+India Home Desi OAC -OLDER ADULTS ONLY,178-36 Wexford Terrace,Queens,11432,Yes,Older Adult Center
+Wayside Out Glenmore Plaza Social Club -OLDER ADULTS ONLY,1777 Pitkin Avenue,Brooklyn,11212,No,Older Adult Center
+Grand St Settlement Grand Coalition of Older Adults OAC -OLDER ADULTS ONLY,175 Delancy St 4th FlL,Manhattan,10002,Yes,Older Adult Center
+Rochdale Village OAC -OLDER ADULTS ONLY,169-65 137 Av,Queens,11434,Yes,Older Adult Center
+CPC Project Open Door Neighborhood OAC -OLDER ADULTS ONLY,168 Grand St,Manhattan,10013,Yes,Older Adult Center
+SHOPP Soundview Social Club OAC -OLDER ADULTS ONLY,1674 Seward Avenue,Bronx,10473,No,Older Adult Center
+RJ Rangel OAC -OLDER ADULTS ONLY,159-36 Harlem River Drive,Manhattan,10039,No,Older Adult Center
+Stuyvesant Gardens Senior Club OAC -OLDER ADULTS ONLY,150 Malcolm X Boulevard,Brooklyn,11221,No,Older Adult Center
+Casabe Senior Houses aka East Harlem OAC -OLDER ADULTS ONLY,150 E 121 St,Manhattan,10035,Yes,Older Adult Center
+Bernikow OAC -OLDER ADULTS ONLY,1466 Manor Rd,Staten Island,10314,Yes,Older Adult Center
+Marcus Garvey OAC -OLDER ADULTS ONLY,1440 East New York Avenue,Brooklyn,11212,No,Older Adult Center
+Canaan Senior Service OAC -OLDER ADULTS ONLY,1428 5th Avenue,Manhattan,10026,Yes,Older Adult Center
+FIND Aid Hamilton OAC -OLDER ADULTS ONLY,141 W 73 St,Manhattan,10023,Yes,Older Adult Center
+Young at Heart Senior Center at the Flatbush YMCA OAC -OLDER ADULTS ONLY,1401 Flatbush Avenue,Brooklyn,11210,Yes,Older Adult Center
+Robert Couche OAC -OLDER ADULTS ONLY,137-57 Farmers Blvd,Queens,11434,Yes,Older Adult Center
+Seth Low Social Clubs CD16 -OLDER ADULTS ONLY,137 Belmont Avenue,Brooklyn,11212,No,Older Adult Center
+Center at the Red Oak OAC -OLDER ADULTS ONLY,135 W 106 St,Manhattan,10025,Yes,Older Adult Center
+Jackie Robinson OAC -OLDER ADULTS ONLY,1301 Amsterdam Ave.,Manhattan,10027,Yes,Older Adult Center
+New Dorp Beach OAC -OLDER ADULTS ONLY,128 Cedar Grove Avenue,Staten Island,10306,Yes,Older Adult Center
+FIND Aid Woodstock OAC -OLDER ADULTS ONLY,127 W 43 St,Manhattan,10036,Yes,Older Adult Center
+Congregation Yetev Lev --Williamsburg Satmar OAC -OLDER ADULTS ONLY,125 Heyward St,Brooklyn,11206,Yes,Older Adult Center
+Red Hook OAC -OLDER ADULTS ONLY,120 W 9 St,Brooklyn,11231,Yes,Older Adult Center
+JASA Club 76 OAC -OLDER ADULTS ONLY,120 W 76 St,Manhattan,10023,Yes,Older Adult Center
+ARC XVI Central Harlem OAC -OLDER ADULTS ONLY,120 W 140 St,Manhattan,10030,Yes,Older Adult Center
+Hudson Guild OAC -OLDER ADULTS ONLY,119 9th Ave.,Manhattan,10011,Yes,Older Adult Center
+CCNS Best Life OAC -OLDER ADULTS ONLY,118-35 Farmers Blvd.,Queens,11412,No,Older Adult Center
+Bergen Basin Independence OAC -OLDER ADULTS ONLY,114 Taylor St,Brooklyn,11211,Yes,Older Adult Center
+CORONA OAC -OLDER ADULTS ONLY,107-24 Corona Av,Queens,11368,Yes,Older Adult Center
+Hope of Israel Senior Citizens Center -OLDER ADULTS ONLY,1068 Gerard Avenue,Bronx,10452,Yes,Older Adult Center
+Willoughby OAC -OLDER ADULTS ONLY,105 North Portland Av,Brooklyn,11205,Yes,Older Adult Center
+CCNS Ozone Park OAC -OLDER ADULTS ONLY,103-02 101 Av,Queens,11416,Yes,Older Adult Center
+"Polish and Slavic Center, Inc -OLDER ADULTS ONLY",103 E 7 St,Manhattan,10009,Yes,Older Adult Center
+Council Ctr for Senior Citizens OAC -OLDER ADULTS ONLY,1001 Quentin Rd,Brooklyn,11223,Yes,Older Adult Center
+Schomburg Center for Research in Black Culture,515 Malcolm X Boulevard,Manhattan,10037,Yes,Library
+Andrew Heiskell Braille & Talking Book Library,40 W 20 St,Manhattan,10011,Yes,Library
+Library for the Performing Arts,40 Lincoln Center Plz,Manhattan,10023,Yes,Library
+Bronx House Weinberg Neighborhood OAC -OLDER ADULTS ONLY,990 Pelham Pkwy S,Bronx,10461,Yes,Older Adult Center
+Riverstone Senior Life Services OAC -OLDER ADULTS ONLY,99 Fort Washington Av,Manhattan,10032,Yes,Older Adult Center
+SNAP Eastern Queens OAC (ISC) -OLDER ADULTS ONLY,80-45 Winchester Blvd Bldg. 4,Queens,11427,Yes,Older Adult Center
+Leon OAC -OLDER ADULTS ONLY,735 E 152 St,Bronx,10455,Yes,Older Adult Center
+MMCC-CDC Older Adult Center Marble Hill OAC -OLDER ADULTS ONLY,5365 Broadway,Bronx,10463,Yes,Older Adult Center
+Sunnyside Community Services OAC -OLDER ADULTS ONLY,43-31 39 St,Queens,11104,Yes,Older Adult Center
+NYFSC Dyckman Older Adult Center -OLDER ADULTS ONLY,3754 10 Av,Manhattan,10034,Yes,Older Adult Center
+East Side House Melrose Older Adult Center -OLDER ADULTS ONLY,372 E 152 St,Bronx,10455,Yes,Older Adult Center
+CCNS the Bay OAC -OLDER ADULTS ONLY,3643 Nostrand Av,Brooklyn,11229,Yes,Older Adult Center
+Cypress Hills Fulton Street Senior Citizens OAC -OLDER ADULTS ONLY,3208 Fulton St,Brooklyn,11208,Yes,Older Adult Center
+Patterson OAC -OLDER ADULTS ONLY,308 East 145 Street,Bronx,10451,No,Older Adult Center
+East Side House Borinquen Court Mitchel OAC -OLDER ADULTS ONLY,295 East 138th Street,Bronx,10454,Yes,Older Adult Center
+NYFSC LaGuardia OAC -OLDER ADULTS ONLY,280 Cherry St,Manhattan,10002,Yes,Older Adult Center
+HANAC Harmony JVL ISC -OLDER ADULTS ONLY,27-40 Hoyt Av South,Queens,11102,Yes,Older Adult Center
+Jefferson OAC -OLDER ADULTS ONLY,2205 First Av,Manhattan,10029,Yes,Older Adult Center
+Bay Ridge Ctr for Health and Wellness -OLDER ADULTS ONLY,15 Bay Ridge Ave.,Brooklyn,11209,Yes,Older Adult Center
+SNAP Brookville OAC -OLDER ADULTS ONLY,133-33 Brookville Blvd,Queens,11422,Yes,Older Adult Center
+JASA Brookdale Village OAC -OLDER ADULTS ONLY,131 Beach 19 St,Queens,11691,Yes,Older Adult Center
+HMH City Hall OAC -OLDER ADULTS ONLY,100 Gold St,Manhattan,10038,Yes,Older Adult Center
+Gaylord White OAC -OLDER ADULTS ONLY,237 EAST 104TH ST,Manhattan,10029,Yes,Older Adult Center
+Office of Assembly Member Rebecca A. Seawright,1485 York Avenue,Manhattan,10075,Yes,Other
+Selfhelp Latimer NSC -OLDER ADULTS ONLY,34-30 137 St,Queens,11354,Yes,Older Adult Center
+JCCGCI Marien-Heim OAC -OLDER ADULTS ONLY,870 Ocean Pkwy,Brooklyn,11230,Yes,Older Adult Center
+Frederick Douglass Social Club -OLDER ADULTS ONLY,868 Amsterdam Av,Manhattan,10025,No,Older Adult Center
+Selfhelp Maspeth NSC -OLDER ADULTS ONLY,69-61 Grand Av,Queens,11378,Yes,Older Adult Center
+Mill Brook OAC -OLDER ADULTS ONLY,570 East 137th Street,Bronx,10454,Yes,Older Adult Center
+Cypress Hills Adult Social Club OAC -OLDER ADULTS ONLY,475 Fountain Av,Brooklyn,11208,No,Older Adult Center
+Selfhelp Benjamin Rosenthal OAC -OLDER ADULTS ONLY,45-25 Kissena Blvd,Queens,11355,Yes,Older Adult Center
+Selfhelp Clearview NSC -OLDER ADULTS ONLY,208-11 26 Av,Queens,11360,Yes,Older Adult Center
+Selfhelp Austin Street NSC -OLDER ADULTS ONLY,106-06 Queens Blvd,Queens,11375,Yes,Older Adult Center
+JASA Sue Ginsburg OAC -OLDER ADULTS ONLY,975 Waring Avenue,Bronx,10469,Yes,Older Adult Center
+QCH Rego Park OAC -OLDER ADULTS ONLY,97-30 Queens Blvd,Queens,11374,Yes,Older Adult Center
+JASA HES OAC -OLDER ADULTS ONLY,9502 Seaview Av,Brooklyn,11236,Yes,Older Adult Center
+PSS Davidson OAC -OLDER ADULTS ONLY,950 Union Av,Bronx,10459,Yes,Older Adult Center
+Meltzer Social Club OAC -OLDER ADULTS ONLY,94 East 1 St,Manhattan,10009,No,Older Adult Center
+CCNS Narrows OAC -OLDER ADULTS ONLY,930 53rd St.,Brooklyn,11219,Yes,Older Adult Center
+CCNS Hillcrest OAC -OLDER ADULTS ONLY,91-34 182nd Pl,Queens,11432,Yes,Older Adult Center
+Agudath Israel Moriah Older Adult Luncheon Club -OLDER ADULTS ONLY,90 Bennett Av,Manhattan,10033,Yes,Older Adult Center
+Diana Jones ISC -OLDER ADULTS ONLY,9 Noll St,Brooklyn,11206,Yes,Older Adult Center
+CCNS Woodhaven Richmond OAC -OLDER ADULTS ONLY,89-02 91 St,Queens,11421,Yes,Older Adult Center
+SEBCO Senior Center OAC -OLDER ADULTS ONLY,887 Southern Blvd,Bronx,10459,Yes,Older Adult Center
+JASA Holliswood OAC -OLDER ADULTS ONLY,86-25 Francis Lewis Blvd,Queens,11427,Yes,Older Adult Center
+Palmetto Gardens Senior Club OAC -OLDER ADULTS ONLY,85 Palmetto Street,Brooklyn,11221,No,Older Adult Center
+RAIN Inwood OAC -OLDER ADULTS ONLY,84 Vermilyea Av,Manhattan,10034,No,Older Adult Center
+Borinquen Plaza OAC -OLDER ADULTS ONLY,80 Seigel St,Brooklyn,11206,Yes,Older Adult Center
+Bronxworks Morris OAC -OLDER ADULTS ONLY,80 E 181 St,Bronx,10453,Yes,Older Adult Center
+Bensonhurst OAC -OLDER ADULTS ONLY,7802 Bay Pkwy,Brooklyn,11214,Yes,Older Adult Center
+CCNS The Lodge OAC -OLDER ADULTS ONLY,77-11 18 Av,Brooklyn,11214,Yes,Older Adult Center
+Elmhurst OAC -OLDER ADULTS ONLY,75-01 Broadway,Queens,11373,Yes,Older Adult Center
+RAIN Nereid OAC -OLDER ADULTS ONLY,720 Nereid Av,Bronx,10466,Yes,Older Adult Center
+CCNS Pete MCGUINNESS OAC -OLDER ADULTS ONLY,715 Leonard St,Brooklyn,11222,Yes,Older Adult Center
+JASA Roy Reuther OAC -OLDER ADULTS ONLY,7-11C Seagirt Avenue,Queens,11691,Yes,Older Adult Center
+CASC New Lane Older Adult Center -OLDER ADULTS ONLY,70 New Ln,Staten Island,10305,Yes,Older Adult Center
+Middle Village OAC -OLDER ADULTS ONLY,69-10 75 St,Queens,11379,Yes,Older Adult Center
+Young Israel Programs Forest Hills OAC -OLDER ADULTS ONLY,68-07 Burns St,Queens,11375,Yes,Older Adult Center
+QCH Pomonok OAC -OLDER ADULTS ONLY,67-09 Kissena Blvd,Queens,11367,Yes,Older Adult Center
+Mount Loretto OAC -OLDER ADULTS ONLY,6581 Hylan Blvd,Staten Island,10309,Yes,Older Adult Center
+Washington Heights Neighborhood Senior Center (STAR OAC) -OLDER ADULTS ONLY,650 W 187 St,Manhattan,10033,No,Older Adult Center
+Kips Bay Castle Hill OAC -OLDER ADULTS ONLY,625 Castle Hill Av,Bronx,10473,Yes,Older Adult Center
+Betances OAC -OLDER ADULTS ONLY,607 Concord Av,Bronx,10455,Yes,Older Adult Center
+Goddard Riverside OAC at West 88th Street -OLDER ADULTS ONLY,593 Columbus Av,Manhattan,10024,Yes,Older Adult Center
+Agudath Israel of America Boro Park Senior Citizens OAC -OLDER ADULTS ONLY,5602 11TH AVENUE,Brooklyn,11219,Yes,Older Adult Center
+CCNS St. Charles OAC -OLDER ADULTS ONLY,55 Pierrepont St,Brooklyn,11201,Yes,Older Adult Center
+Carver OAC -OLDER ADULTS ONLY,55 E 102 St,Manhattan,10029,Yes,Older Adult Center
+CBN Roosevelt Island Senior Center -OLDER ADULTS ONLY,546 Main St,Manhattan,10044,Yes,Older Adult Center
+Center for Adults Living Well @ the Y (OAC) -OLDER ADULTS ONLY,54 Nagle Av,Manhattan,10040,Yes,Older Adult Center
+CCNS New Age -OLDER ADULTS ONLY,54 MACDONOUGH STREET,Brooklyn,11216,Yes,Older Adult Center
+PSS Manhattanville OAC -OLDER ADULTS ONLY,530 W 133 St,Manhattan,10027,Yes,Older Adult Center
+Bronxworks E Roberts Moore OAC -OLDER ADULTS ONLY,515 Jackson Av,Bronx,10455,Yes,Older Adult Center
+PSS King Towers OAC -OLDER ADULTS ONLY,50 Lenox Ave,Manhattan,10026,No,Older Adult Center
+Boro Park Y OAC -OLDER ADULTS ONLY,4912 14 Av,Brooklyn,11219,Yes,Older Adult Center
+Sephardic Multi Services Senior Citizens Center Inc -OLDER ADULTS ONLY,485 Kings Hwy,Brooklyn,11223,Yes,Older Adult Center
+United Neighborhood Senior Citizens OAC -OLDER ADULTS ONLY,475 53 St,Brooklyn,11220,Yes,Older Adult Center
+Park Slope Ctr for Successful Aging OAC -OLDER ADULTS ONLY,463A 7 St,Brooklyn,11218,Yes,Older Adult Center
+Arrochar OAC -OLDER ADULTS ONLY,44 Bionia Av,Staten Island,10305,Yes,Older Adult Center
+Bronxworks Soundview OAC -OLDER ADULTS ONLY,391 Bronx River Avenue,Bronx,10473,Yes,Older Adult Center
+Eileen Dugan Amico OAC -OLDER ADULTS ONLY,378 Court St,Brooklyn,11231,Yes,Older Adult Center
+JASA Scheuer Coney Island OAC -OLDER ADULTS ONLY,3601 Surf Av,Brooklyn,11224,Yes,Older Adult Center
+CCNS Catherine Sheridan OAC -OLDER ADULTS ONLY,35-24 83 St,Queens,11372,Yes,Older Adult Center
+Carter Burden Luncheon Club OAC -OLDER ADULTS ONLY,351 E 74 St,Manhattan,10021,Yes,Older Adult Center
+HANAC Ravenswood Older Adult Center -OLDER ADULTS ONLY,34-35A 12 St,Queens,11106,Yes,Older Adult Center
+Central Harlem Kennedy OAC -OLDER ADULTS ONLY,34 W 134 St,Manhattan,10037,Yes,Older Adult Center
+RAIN Gunhill OAC -OLDER ADULTS ONLY,3377 White Plains Rd,Bronx,10462,Yes,Older Adult Center
+PSS Andrew Jackson OAC -OLDER ADULTS ONLY,325 E 156 St,Bronx,10451,No,Older Adult Center
+CCNS Seaside OAC -OLDER ADULTS ONLY,320 Beach 94 St,Queens,11693,Yes,Older Adult Center
+Ridgewood Bushwick OAC -OLDER ADULTS ONLY,319 Stanhope St,Brooklyn,11237,Yes,Older Adult Center
+CBN Leonard Covello (ISC) Senior Program OAC -OLDER ADULTS ONLY,312 E 109 St,Manhattan,10029,Yes,Older Adult Center
+Corsi OAC -OLDER ADULTS ONLY,307 E 116 St,Manhattan,10029,Yes,Older Adult Center
+RAIN Middletown OAC -OLDER ADULTS ONLY,3035 Middletown Rd,Bronx,10461,Yes,Older Adult Center
+JCCGCI Coney Island Seaside OAC (ISC) -OLDER ADULTS ONLY,3001 W 37 St,Brooklyn,11224,Yes,Older Adult Center
+Northeast Bronx OAC -OLDER ADULTS ONLY,2968 Bruckner Blvd,Bronx,10465,Yes,Older Adult Center
+JASA Luna Park Annex OAC -OLDER ADULTS ONLY,2880 W 12 St,Brooklyn,11224,Yes,Older Adult Center
+Teresa Moore OAC -OLDER ADULTS ONLY,2702 Linden Blvd,Brooklyn,11208,Yes,Older Adult Center
+JCW Workforce OAC -OLDER ADULTS ONLY,27 Barrow St,Manhattan,10014,Yes,Older Adult Center
+JCCGCI Jay-Harama OAC -OLDER ADULTS ONLY,2600 Ocean Av,Brooklyn,11229,Yes,Older Adult Center
+Goddard Riverside LSNC OAC @ West 65th St -OLDER ADULTS ONLY,250 W 65 St,Manhattan,10023,Yes,Older Adult Center
+RAIN Boston Road OAC -OLDER ADULTS ONLY,2424 Boston Rd,Bronx,10467,Yes,Older Adult Center
+RAIN Mt Carmel OAC -OLDER ADULTS ONLY,2405 Southern Blvd,Bronx,10458,Yes,Older Adult Center
+Encore at St Malachy's -OLDER ADULTS ONLY,239 W 49 St,Manhattan,10019,Yes,Older Adult Center
+Bronxworks East Concourse (My Spot/Mi Rincon OAC) -OLDER ADULTS ONLY,236 E Tremont Av,Bronx,10457,Yes,Older Adult Center
+CCNS Dellamonica-Steinway OAC -OLDER ADULTS ONLY,23-56 Broadway,Queens,11106,Yes,Older Adult Center
+CCNS Saint Louis OAC -OLDER ADULTS ONLY,230 Kingston Av,Brooklyn,11213,Yes,Older Adult Center
+West Brighton Neighborhood OAC -OLDER ADULTS ONLY,230 Broadway,Staten Island,10310,Yes,Older Adult Center
+CCNS Bayside OAC -OLDER ADULTS ONLY,221-15 Horace Harding Exwy,Queens,11364,Yes,Older Adult Center
+Alpha Phi Alpha Senior Citizen OAC -OLDER ADULTS ONLY,220-01 Linden Blvd,Queens,11411,Yes,Older Adult Center
+Thomas Guess OAC -OLDER ADULTS ONLY,2070 Clinton Av,Bronx,10457,Yes,Older Adult Center
+"Stein Senior Center, Inc OAC -OLDER ADULTS ONLY",204 E 23 St,Manhattan,10010,Yes,Older Adult Center
+Cothoa Luncheon Club OAC -OLDER ADULTS ONLY,2005 Amsterdam Av,Manhattan,10032,Yes,Older Adult Center
+JCCGCI Ocean Parkway OAC -OLDER ADULTS ONLY,1960 E 7 St,Brooklyn,11223,Yes,Older Adult Center
+Hope Gardens Multi Service OAC -OLDER ADULTS ONLY,195 Linden St.,Brooklyn,11221,No,Older Adult Center
+Stapelton OAC -OLDER ADULTS ONLY,189 Gordon St,Staten Island,10304,No,Older Adult Center
+Todt Hill OAC -OLDER ADULTS ONLY,184 Schmidts Ln,Staten Island,10314,Yes,Older Adult Center
+James Monroe NSC -OLDER ADULTS ONLY,1776 Story Av,Bronx,10473,Yes,Older Adult Center
+JASA Dreiser -OLDER ADULTS ONLY,177 Dreiser Loop,Bronx,10475,No,Older Adult Center
+Young Israel Programs Midwood -OLDER ADULTS ONLY,1694 Ocean Av,Brooklyn,11230,Yes,Older Adult Center
+Allen AME Community Older Adult Center -OLDER ADULTS ONLY,166-01 Linden Blvd,Queens,11434,Yes,Older Adult Center
+Lehman Village Senior Program (Social Club) OAC -OLDER ADULTS ONLY,1641 Madison Av,Manhattan,10029,No,Older Adult Center
+Bronx River OAC -OLDER ADULTS ONLY,1619 E 174 St,Bronx,10472,Yes,Older Adult Center
+JASA Senior Alliance OAC -OLDER ADULTS ONLY,161 Corbin Pl,Brooklyn,11235,Yes,Older Adult Center
+CCNS Howard Beach OAC -OLDER ADULTS ONLY,155-55 Cross Bay Blvd,Queens,11414,Yes,Older Adult Center
+JASA Starrett City OAC -OLDER ADULTS ONLY,1540 Van Siclen Av,Brooklyn,11239,Yes,Older Adult Center
+UJCES Lunch Club OAC -OLDER ADULTS ONLY,15 Willett Street,Manhattan,10002,Yes,Older Adult Center
+Brooks OAC -OLDER ADULTS ONLY,143-22 109 Ave,Queens,11435,No,Older Adult Center
+Dorchester Senior Citizens Center OAC -OLDER ADULTS ONLY,1419 Dorchester Rd,Brooklyn,11226,Yes,Older Adult Center
+Young Israel Programs Queens Valley II -OLDER ADULTS ONLY,141-55 77 Av,Queens,11367,Yes,Older Adult Center
+JASA Einstein OAC -OLDER ADULTS ONLY,135 Einstein Loop,Bronx,10475,No,Older Adult Center
+CPC Nan Shan Neighborhood OAC -OLDER ADULTS ONLY,133-14 41 Avenue,Queens,11355,Yes,Older Adult Center
+William Hodson Community Center Inc OAC -OLDER ADULTS ONLY,1320 Webster Av,Bronx,10456,Yes,Older Adult Center
+Arturo Schomburg OAC -OLDER ADULTS ONLY,1315 Franklin Av,Bronx,10456,Yes,Older Adult Center
+Avis South Shore OAC -OLDER ADULTS ONLY,1297 Arthur Kill Rd,Staten Island,10312,Yes,Older Adult Center
+PSS Harlem OAC -OLDER ADULTS ONLY,127 West 127th Street,Manhattan,10027,Yes,Older Adult Center
+CASC Cassidy Coles OAC -OLDER ADULTS ONLY,125 Cassidy Pl,Staten Island,10301,Yes,Older Adult Center
+RAIN Eastchester Latin Soul Café OAC -OLDER ADULTS ONLY,1246 Burke Av,Bronx,10469,Yes,Older Adult Center
+Allen AME Rockaway Blvd OAC -OLDER ADULTS ONLY,123-10 143 St,Queens,11436,Yes,Older Adult Center
+JASA Bay Eden OAC -OLDER ADULTS ONLY,1220 E 229 St,Bronx,10466,Yes,Older Adult Center
+UJCES Lillian Wald OAC Center -OLDER ADULTS ONLY,12 Avenue D,Manhattan,10009,Yes,Older Adult Center
+PSS Highbridge OAC -OLDER ADULTS ONLY,1181 Nelson Av,Bronx,10452,Yes,Older Adult Center
+PSS Highbridge Gardens OAC -OLDER ADULTS ONLY,1145 University Ave,Bronx,10452,Yes,Older Adult Center
+Great Kills Friendship Club NSC -OLDER ADULTS ONLY,11 Sampson Av,Staten Island,10308,Yes,Older Adult Center
+QCH Forest Hills OAC -OLDER ADULTS ONLY,108-25 62 Dr,Queens,11375,Yes,Older Adult Center
+ARC XVI A Philip Randolph Center (ARC Ft Washington AOC) -OLDER ADULTS ONLY,108 W 146 St,Manhattan,10039,Yes,Older Adult Center
+JASA Rockaway Park OAC -OLDER ADULTS ONLY,106-20 Shore Front Pkwy,Queens,11694,Yes,Older Adult Center
+Bergen Basin Abe Stark Older Adult Center -OLDER ADULTS ONLY,10315 Farragut Rd,Brooklyn,11236,Yes,Older Adult Center
+Queensbridge Center OAC -OLDER ADULTS ONLY,10-25 41St Avenue,Queens,11101,Yes,Older Adult Center
+Florence E Smith OAC -OLDER ADULTS ONLY,102-19 34 Av,Queens,11368,Yes,Older Adult Center
+St Nicks Alliance Cooper Park Social -OLDER ADULTS ONLY,288 Frost Street,Brooklyn,11211,No,Older Adult Center
+Golden Phoenix 3 (Elmcor Lefrak NSC) -OLDER ADULTS ONLY,96-05 Horace Harding Expwy,Queens,11368,Yes,Older Adult Center
+Golden Phoenix 2 (Elmcor Lefrak NSC) -OLDER ADULTS ONLY,95-18 Northern Blvd,Queens,11368,Yes,Older Adult Center
+Italian Senior Citizens Center Inc OAC -OLDER ADULTS ONLY,83-20 Queens Blvd,Queens,11373,Yes,Older Adult Center
+"Ridgewood Older Adult Center And Services, Inc OAC -OLDER ADULTS ONLY",59-14 70 Av,Queens,11385,Yes,Older Adult Center
+Golden Phoenix 4 (Elmcor Lefrak NSC) -OLDER ADULTS ONLY,33-16 108th St.,Queens,11369,Yes,Older Adult Center
+St Nicks Alliance Swinging Sixties OAC -OLDER ADULTS ONLY,211 Ainslie Street,Brooklyn,11211,Yes,Older Adult Center
+"Southside Los Sures ""David Santiago"" OAC -OLDER ADULTS ONLY",201 South 4 St,Brooklyn,11211,Yes,Older Adult Center
+Polish & Slavic Ctr Krakus OAC -OLDER ADULTS ONLY,176 Java St,Brooklyn,11222,Yes,Older Adult Center
+JCCGCI Midwood OAC -OLDER ADULTS ONLY,1625 Ocean Avenue,Brooklyn,11230,Yes,Older Adult Center
+Peter Cardella OAC -OLDER ADULTS ONLY,68-52 Fresh Pond Rd,Queens,11385,Yes,Older Adult Center
+BRC OAC -OLDER ADULTS ONLY,30 Delancey St,Manhattan,10002,Yes,Older Adult Center
+HANAC Angelo Petromelis Older Adult Center -OLDER ADULTS ONLY,13-28 123 St,Queens,11356,Yes,Older Adult Center
+CCNS Northside OAC -OLDER ADULTS ONLY,179 North 6 St,Brooklyn,11211,No,Older Adult Center
+Anderson Neighborhood OAC -OLDER ADULTS ONLY,120 Anderson Av,Staten Island,10302,Yes,Older Adult Center
+YMCA - Glebe Older Adult Community Hub -OLDER ADULTS ONLY,2125 Glebe Avenue,Bronx,10462,No,Older Adult Center
+PSS City Island OAC -OLDER ADULTS ONLY,116 City Island Avenue,Bronx,10464,Yes,Older Adult Center
+Homecrest Bensonhurtst OAC & Ave T Brooklyn -OLDER ADULTS ONLY,7907 New Utrecht Av,Brooklyn,11214,Yes,Older Adult Center
+Office of NYS Senator Jabari Brisport,906 Broadway 2nd Floor,Brooklyn,11206,Yes,Other
