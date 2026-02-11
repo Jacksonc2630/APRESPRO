@@ -1,15 +1,15 @@
 {
-    "project_root": "d:\\APRESPRO",
+    "project_root": "c:\\Users\\Jackson\\OneDrive\\Desktop\\APRESPRO",
     "paths": {
-        "data_raw": "d:\\APRESPRO\\Data\\Raw",
-        "data_processed": "d:\\APRESPRO\\Data\\Processed",
-        "outputs": "d:\\APRESPRO\\Outputs",
-        "figures": "d:\\APRESPRO\\Outputs\\Figures",
-        "statistics": "d:\\APRESPRO\\Outputs\\Statistics",
-        "climate": "d:\\APRESPRO\\Data\\Raw\\Climate",
-        "socialvulnerability": "d:\\APRESPRO\\Data\\Raw\\socialvulnerability",
-        "infrastructure": "d:\\APRESPRO\\Data\\Raw\\Infrastructure",
-        "shapefiles": "d:\\APRESPRO\\Data\\Raw\\Shapefiles",
-        "redlining": "d:\\APRESPRO\\Data\\Raw\\Redlining"
+        "data_raw": "c:\\Users\\Jackson\\OneDrive\\Desktop\\APRESPRO\\Data\\Raw",
+        "data_processed": "c:\\Users\\Jackson\\OneDrive\\Desktop\\APRESPRO\\Data\\Processed",
+        "outputs": "c:\\Users\\Jackson\\OneDrive\\Desktop\\APRESPRO\\Outputs",
+        "figures": "c:\\Users\\Jackson\\OneDrive\\Desktop\\APRESPRO\\Outputs\\Figures",
+        "statistics": "c:\\Users\\Jackson\\OneDrive\\Desktop\\APRESPRO\\Outputs\\Statistics",
+        "climate": "c:\\Users\\Jackson\\OneDrive\\Desktop\\APRESPRO\\Data\\Raw\\Climate",
+        "socialvulnerability": "c:\\Users\\Jackson\\OneDrive\\Desktop\\APRESPRO\\Data\\Raw\\socialvulnerability",
+        "infrastructure": "c:\\Users\\Jackson\\OneDrive\\Desktop\\APRESPRO\\Data\\Raw\\Infrastructure",
+        "shapefiles": "c:\\Users\\Jackson\\OneDrive\\Desktop\\APRESPRO\\Data\\Raw\\Shapefiles",
+        "redlining": "c:\\Users\\Jackson\\OneDrive\\Desktop\\APRESPRO\\Data\\Raw\\Redlining"
     }
 }
