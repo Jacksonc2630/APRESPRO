@@ -7,7 +7,7 @@ This research examines how equitable access to urban heat adaptation infrastruct
 ### Methodology
 
 **Composite Heat Vulnerability Index (CHVI):**
-- **Heat Exposure**: Measured using Wet Bulb Globe Temperature using Steadman WBGT formula (0.567*T + 0.393*ea + 3.94)
+- **Heat Exposure**: Measured using Wet Bulb Globe Temperature using simplified Steadman WBGT formula (0.567*T + 0.393*ea + 3.94)
 - **Social Vulnerability**: CDC's Social Vulnerability Index (SVI) to measure community susceptibility to heat-related health impacts
 - **Adaptive Capacity**: Access to cooling centers, green spaces, and urban design factors
 
