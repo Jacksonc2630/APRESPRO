@@ -1,6 +1,3 @@
-# 07_SummaryStatistics.py - Summary statistics and disparity analysis
-# This script generates final statistics and disparity analysis for the heat vulnerability project
-
 import json
 import warnings
 from pathlib import Path
@@ -63,9 +60,8 @@ BORO_MAPPING = {
     'SI': 'Staten Island'
 }
 
-# ============================================================
-# 1. OVERALL CHVI STATISTICS
-# ============================================================
+# OVERALL CHVI STATISTICS
+
 print('\n' + '='*80)
 print('1. OVERALL CHVI STATISTICS')
 print('='*80)
@@ -78,9 +74,7 @@ if 'chvi' in nyc_chvi.columns:
     if 'chvi_class' in nyc_chvi.columns:
         print(nyc_chvi['chvi_class'].value_counts().sort_index().to_string())
 
-# ============================================================
-# 2. WBGT STATISTICS
-# ============================================================
+# WBGT STATISTICS
 print('\n' + '='*80)
 print('2. WBGT (HEAT EXPOSURE) STATISTICS')
 print('='*80)
@@ -97,9 +91,7 @@ if 'geoid' in nyc_chvi.columns:
     boro_wbgt = nyc_chvi.groupby('borough')['wbgt'].agg(['mean', 'std', 'min', 'max']).round(4)
     print(boro_wbgt.to_string())
 
-# ============================================================
-# 3. SOCIAL VULNERABILITY STATISTICS
-# ============================================================
+# SOCIAL VULNERABILITY STATISTICS
 print('\n' + '='*80)
 print('3. SOCIAL VULNERABILITY INDEX (SVI) STATISTICS')
 print('='*80)
@@ -112,9 +104,7 @@ if 'svi' in nyc_chvi.columns:
     boro_svi = nyc_chvi.groupby('borough')['svi'].agg(['mean', 'std', 'min', 'max']).round(4)
     print(boro_svi.to_string())
 
-# ============================================================
-# 4. ADAPTIVE CAPACITY STATISTICS
-# ============================================================
+# ADAPTIVE CAPACITY STATISTICS
 print('\n' + '='*80)
 print('4. ADAPTIVE CAPACITY STATISTICS')
 print('='*80)
@@ -137,14 +127,11 @@ if 'adaptive_score' in nyc_chvi.columns:
         boro_density = nyc_chvi.groupby('borough')[existing_density_cols].mean().round(4)
         print(boro_density.to_string())
 
-# ============================================================
-# 5. DISPARITY ANALYSIS
-# ============================================================
+# DISPARITY ANALYSIS
 print('\n' + '='*80)
 print('5. DISPARITY ANALYSIS')
 print('='*80)
 
-# Compare high vs low SVI neighborhoods
 if 'svi' in nyc_chvi.columns and 'chvi' in nyc_chvi.columns:
     high_svi = nyc_chvi[nyc_chvi['svi'] >= 0.6]
     low_svi = nyc_chvi[nyc_chvi['svi'] < 0.4]
@@ -167,9 +154,7 @@ if 'svi' in nyc_chvi.columns and 'chvi' in nyc_chvi.columns:
     print(f'  High SVI: {high_svi["chvi"].mean():.4f}')
     print(f'  Low SVI:  {low_svi["chvi"].mean():.4f}')
 
-# ============================================================
-# 6. TOP 10 MOST VULNERABLE NEIGHBORHOODS
-# ============================================================
+# TOP 10 MOST VULNERABLE NEIGHBORHOODS
 print('\n' + '='*80)
 print('6. TOP 10 MOST HEAT-VULNERABLE NEIGHBORHOODS')
 print('='*80)
@@ -180,9 +165,7 @@ if 'chvi' in nyc_chvi.columns:
         top10 = nyc_chvi.nlargest(10, 'chvi')[['geoid', 'ntaname', 'borough', 'wbgt', 'svi', 'adaptive_score', 'chvi']]
     print(top10.round(4).to_string(index=False))
 
-# ============================================================
-# 7. TOP 10 LEAST VULNERABLE NEIGHBORHOODS
-# ============================================================
+#  TOP 10 LEAST VULNERABLE NEIGHBORHOODS
 print('\n' + '='*80)
 print('7. TOP 10 LEAST HEAT-VULNERABLE NEIGHBORHOODS')
 print('='*80)
@@ -193,9 +176,7 @@ if 'chvi' in nyc_chvi.columns:
         bottom10 = nyc_chvi.nsmallest(10, 'chvi')[['geoid', 'ntaname', 'borough', 'wbgt', 'svi', 'adaptive_score', 'chvi']]
     print(bottom10.round(4).to_string(index=False))
 
-# ============================================================
-# 8. CORRELATION ANALYSIS
-# ============================================================
+# CORRELATION ANALYSIS
 print('\n' + '='*80)
 print('8. CORRELATION ANALYSIS')
 print('='*80)
@@ -207,9 +188,7 @@ if len(existing_corr_cols) > 1:
     print('\nCorrelation Matrix:')
     print(corr_matrix.round(4).to_string())
 
-# ============================================================
-# 9. SAVE SUMMARY TO CSV
-# ============================================================
+# SAVE SUMMARY TO CSV
 print('\n' + '='*80)
 print('9. SAVING SUMMARY STATISTICS')
 print('='*80)

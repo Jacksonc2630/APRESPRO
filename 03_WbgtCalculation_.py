@@ -8,7 +8,7 @@ import geopandas as gpd
 from rasterstats import zonal_stats
 import rasterio
 
-# ── config ────────────────────────────────────────────────────────────────────
+# config
 config_path = Path('config.json')
 if config_path.exists():
     with open(config_path, 'r') as f:
@@ -19,15 +19,15 @@ else:
     data_processed = Path('Data/Processed')
     figures_path   = Path('Outputs/Figures')
 
-# ── neighborhoods ─────────────────────────────────────────────────────────────
+# neighborhoods
 neigh_fp = data_processed / 'neighborhoods_final.gpkg'
 if not neigh_fp.exists():
     raise FileNotFoundError(f'Neighborhood file not found: {neigh_fp}')
 neigh  = gpd.read_file(neigh_fp)
 id_col = 'geoid' if 'geoid' in neigh.columns else neigh.columns[0]
 
-# ── raster directories ────────────────────────────────────────────────────────
-# Priority: monthly time-series → yearly → 30-yr normals
+# raster directories 
+
 time_series_parent = Path('Data/Raw/Climate')
 possible_dirs = [
     ('prism_tmax_us_30s_monthly',      'prism_vpdmax_us_30s_monthly'),
@@ -54,7 +54,7 @@ if tmax_dir is None:
 print(f'Using TMAX: {tmax_dir.name}')
 print(f'Using VPD : {vpd_dir.name}')
 
-# ── reproject neighborhoods to raster CRS ─────────────────────────────────────
+# reproject neighborhoods to raster CRS
 t0 = next(tmax_dir.glob('*.tif'), None)
 if t0 is not None:
     with rasterio.open(t0) as src:
@@ -63,18 +63,18 @@ if t0 is not None:
         print(f'Reprojecting neighborhoods from {neigh.crs} to {rast_crs}')
         neigh = neigh.to_crs(rast_crs)
 
-# ── output paths ──────────────────────────────────────────────────────────────
+# output paths 
 out_dir = Path('Outputs/Statistics')
 out_dir.mkdir(parents=True, exist_ok=True)
 out_csv = out_dir / 'neighborhood_wbgt_by_month.csv'
-# ── Helper functions ──────────────────────────────────────────────────────────
+# Helper functions 
 
-# ── CONFIGURABLE PARAMETER ────────────────────────────────────────────────────
-# The Steadman WBGT formula (0.567*T + 0.393*ea + 3.94) is calibrated for
-# *ambient* (mean) temperature conditions.  PRISM tmax is the daily maximum,
+#  CONFIGURABLE PARAMETER 
+# The Steadman WBGT formula (0.567*T + 0.393*ea + 3.94) is calibrated for *ambient* (mean) temperature conditions.  PRISM tmax is the daily maximum,
 # which biases WBGT high.  We subtract TMAX_TO_MEAN_OFFSET to approximate the
 # daily mean before passing to the formula.  For monthly 30-yr normals in the
 # north-east US, ~5 °C is a reasonable default; set to 0 to disable.
+
 TMAX_TO_MEAN_OFFSET = 5.0   # °C  – use ~5 to convert Tmax to approximate Tmean for WBGT
 
 
@@ -183,7 +183,7 @@ def extract_period(fname):
     # 4) bare year fallback
     y = re.search(r'(\d{4})', s)
     return y.group(1) if y else ''
-# ── File discovery ────────────────────────────────────────────────────────────
+# File discovery 
 tmax_files = sorted(glob.glob(str(tmax_dir / '*.tif')))
 vpd_files  = sorted(glob.glob(str(vpd_dir  / '*.tif')))
 
@@ -194,7 +194,7 @@ print(f'VPD  files found: {len(vpd_files)}')
 if vpd_files:
     print(f'  sample: {[os.path.basename(p) for p in vpd_files[:3]]}')
 
-# ── Raster diagnostics ────────────────────────────────────────────────────────
+# Raster diagnostics 
 if tmax_files:
     with rasterio.open(tmax_files[0]) as src:
         print('\nTMAX raster info:')
@@ -234,7 +234,7 @@ print('\nNeighborhoods:')
 print(f'  count  : {len(neigh)}')
 print(f'  CRS    : {neigh.crs}')
 print(f'  bounds : {neigh.total_bounds}')
-# ── Pair tmax ↔ vpd files ────────────────────────────────────────────────────
+# Pair tmax ↔ vpd files
 
 def find_vpd_for_tmax(tpath):
     tname = os.path.basename(tpath)
@@ -254,7 +254,7 @@ def find_vpd_for_tmax(tpath):
     return None
 
 
-# ── Build pairs ───────────────────────────────────────────────────────────────
+# Build pairs
 if len(tmax_files) == 1 and len(vpd_files) == 1:
     pairs = [(tmax_files[0], vpd_files[0])]
 else:
@@ -268,7 +268,7 @@ else:
 
 print(f'Processing {len(pairs)} tmax/vpd pair(s) ...')
 
-# ── Zonal statistics & WBGT ───────────────────────────────────────────────────
+# Zonal statistics & WBGT
 rows = []
 
 for tpath, vpath in pairs:
@@ -307,7 +307,7 @@ for tpath, vpath in pairs:
             'wbgt_C':        wbgt,
         })
 
-# ── Build DataFrame ───────────────────────────────────────────────────────────
+# Build DataFrame
 if not rows:
     print('No neighbourhood statistics produced — check raster/vector overlap.')
     df = pd.DataFrame()
@@ -325,7 +325,7 @@ else:
     print(df[['period', id_col, 'tmax_mean_C', 'vpd_mean_kPa', 'ea_kPa', 'wbgt_C']]
           .head(10).to_string(index=False))
 
-    # ── Sanity check ────────────────────────────────────────────────────────
+    # Sanity check
     summer = df[df['month'].isin(['06','07','08'])]['wbgt_C'].dropna()
     if not summer.empty:
         print(f'\nSummer (Jun–Aug) WBGT sanity check:')
@@ -336,7 +336,7 @@ else:
             print('Warning Median WBGT > 30 degC - values seem high for shaded outdoor conditions')
         else:
             print('OK Values within plausible outdoor shaded WBGT range')
-# ── Export neighbourhood centroids as PRISM locations CSV ────────────────────
+# Export neighbourhood centroids as PRISM locations CSV
 locs_fp = Path('Data/Processed/prism_locations_neighborhoods.csv')
 
 neigh_latlon = neigh.to_crs(epsg=4326).copy()
@@ -361,7 +361,7 @@ print(f'Wrote PRISM locations file: {locs_fp}  ({len(df_locs)} rows)')
 print(df_locs.head(6).to_string(index=False))
 print('\nUpload to: https://prism.oregonstate.edu/explorer/bulk.php')
 print('Format: latitude,longitude,name (name <=12 chars, optional)')
-# ── WBGT Choropleth Visualisation ────────────────────────────────────────────
+# WBGT Choropleth Visualisation
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 
@@ -376,7 +376,7 @@ periods = sorted([p for p in wbgt_df['period'].unique() if p != '30yr_normal'])
 if not periods:
     raise RuntimeError('No monthly periods found in WBGT CSV')
 
-# ── Colormap ──────────────────────────────────────────────────────────────────
+# Colormap
 # Use purple-yellow-red gradient for WBGT (0-30°C range)
 purple_yellow_red_cmap = mpl.colors.LinearSegmentedColormap.from_list(
     'purple_yellow_red', ['#440154', '#482878', '#3e4a89', '#26828e', '#1f9e89', '#6dcd59', '#b4de2c', '#fde725', '#f0f921', '#fdb42f', '#ed7953', '#cc4778', '#9c179e', '#5c01a6'])
@@ -428,7 +428,7 @@ def plot_wbgt_for_period(period, out_name_suffix):
     return g
 
 
-# ── Jun–Aug mean map ──────────────────────────────────────────────────────────
+# Jun–Aug mean map
 summer_periods = [p for p in periods
                   if len(p) >= 7 and p.split('-')[1] in {'06', '07', '08'}]
 
@@ -441,7 +441,7 @@ if summer_periods:
 else:
     print('No June–August periods found; skipping summer mean map.')
 
-# ── Hottest / most-variable period map ───────────────────────────────────────
+# Hottest / most-variable period map
 period_stats = (wbgt_df[wbgt_df['period'] != '30yr_normal']
                 .groupby('period')['wbgt_C']
                 .agg(['count', 'mean', 'std', 'min', 'max']))

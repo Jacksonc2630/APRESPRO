@@ -55,6 +55,8 @@ with open(config_path, 'w') as f:
 
 readme_content = f"""# Equitable Access to Urban Heat Adaptation Infrastructure and Heat Vulnerability in New York City
 
+# Equitable Access to Urban Heat Adaptation Infrastructure and Heat Vulnerability in New York City
+
 ## Project Overview
 
 This research examines how equitable access to urban heat adaptation infrastructure influences heat vulnerability in historically underserved neighborhoods of New York City.
@@ -62,44 +64,23 @@ This research examines how equitable access to urban heat adaptation infrastruct
 ### Methodology
 
 **Composite Heat Vulnerability Index (CHVI):**
-- **Heat Exposure**: Measured using Wet Bulb Globe Temperature (WBGT > 28°C)
+- **Heat Exposure**: Measured using Wet Bulb Globe Temperature using Steadman WBGT formula (0.567*T + 0.393*ea + 3.94)
 - **Social Vulnerability**: CDC's Social Vulnerability Index (SVI) to measure community susceptibility to heat-related health impacts
 - **Adaptive Capacity**: Access to cooling centers, green spaces, and urban design factors
 
-### Directory Structure
-
-```
-APRESPRO/
-├── Code/
-│   └── Notebooks/
-├── Data/
-│   ├── Raw/
-│   │   ├── Climate/
-│   │   ├── Demographics/
-│   │   ├── Infrastructure/
-│   │   ├── Shapefiles/
-│   │   └── Redlining/
-│   └── Processed/
-├── Outputs/
-│   ├── Figures/
-│   └── Statistics/
-└── config.json
-```
-
-### Notebooks
-
+### Code
 Run in this order:
-1. **00_Initialization.ipynb** - Setup project structure
-2. **01_Preprocessing.ipynb** - Clean and standardize spatial data
-3. **02_DataImport.ipynb** - Load all datasets
-4. **03_WbgtCalculation.ipynb** - Calculate heat exposure metrics
-5. **04_AdaptiveCapacity.ipynb** - Measure infrastructure access
-6. **05_CompositeHeatVulnerabilityIndex.ipynb** - Compute social vulnerability
-7. **06_Visualization.ipynb** - Create maps and figures
-8. **07_SummaryStatistics.ipynb** - Generate final statistics and disparity analysis
+1. **00_Initialization.py** - Setup project structure
+2. **01_Preprocessing.py** - Clean and standardize spatial data
+3. **02_DataImport.py** - Load all datasets
+4. **03_WbgtCalculation.py** - Calculate heat exposure metrics
+5. **04_AdaptiveCapacity.py** - Measure infrastructure access
+6. **05_CompositeHeatVulnerabilityIndex.py** - Compute social vulnerability
+7. **06_Visualization.py** - Create maps and figures
+8. **07_SummaryStatistics.py** - Generate final statistics and disparity analysis
+9. **08_SummaryStatistics.ipynb** - Generate SVI on NYC map
 
 ### Data Availability
-
 - [2020 Census Tracts Shapefile from NYC Department of City Planning](https://www.nyc.gov/content/planning/pages/resources/datasets/census-tracts)
 - [2020 Neighborhood Tabulation Areas (NTAs) Shapefile from NYC Department of City Planning](https://www.nyc.gov/content/planning/pages/resources/datasets/neighborhood-tabulation)
 - [2020 Community Districts Shapefile from NYC Department of City Planning](https://www.nyc.gov/content/planning/pages/resources/datasets/community-districts)
@@ -108,7 +89,6 @@ Run in this order:
 - [Historical Redlining dating 1970s from NYC GOV](https://a816-dohbesp.nyc.gov/IndicatorPublic/data-stories/redlining/)
 - [Urban Building design from NYC Department of City Planning](https://data.cityofnewyork.us/City-Government/BUILDING/3g6p-4u5s)
 - [Green Infrastructure from Department of Environmental Protection](https://data.cityofnewyork.us/Environment/DEP-Green-Infrastructure-Point-Layer-/df32-vzax/about_data)
-- [CoolIt! NYC Cooling features (Outdoor) from Department of Parks and Recreation](https://data.cityofnewyork.us/dataset/Cool-It-NYC-2020-Cooling-Sites/h2bn-gu9k/about_data)
 - [Cooling centers (Indoors) from NYC.DATA.MAPS](https://www.arcgis.com/home/item.html?id=a0643f21b5e24d1ea3ba1406775c4e52)
 """
 readme_path = Path('README.md')

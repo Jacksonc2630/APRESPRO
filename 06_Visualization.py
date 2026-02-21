@@ -1,8 +1,4 @@
 # 06_Visualization.py - Advanced visualizations for heat vulnerability analysis
-# This script creates visualizations including:
-# - Redlining overlays on CHVI maps
-# - WBGT over time (30-year trends)
-# - Urban design factors visualization
 
 import json
 import warnings
@@ -91,15 +87,11 @@ BLUE_GREEN = mpl.colors.LinearSegmentedColormap.from_list(
 PURPLE_YELLOW_RED = mpl.colors.LinearSegmentedColormap.from_list(
     'pyr', ['#762a83', '#9970ab', '#c2a5cf', '#e7d4e8', '#f7f7f7', '#fee090', '#fdae61', '#f46d43', '#d73027', '#a50026'])
 
-# ============================================================
-# FIGURE 1: CHVI with Redlining Overlay
-# ============================================================
-print('\nCreating Figure 1: CHVI with Redlining Overlay...')
 
-# Create figure with two subplots
+# FIGURE 1: CHVI
+print('\nCreating Figure 1: CHVI')
+
 fig, axes = plt.subplots(1, 2, figsize=(20, 10))
-
-# Left: CHVI map
 if 'chvi' in chvi.columns:
     nyc_chvi = chvi[chvi['in_nyc']].copy()
     vals = nyc_chvi['chvi'].dropna()
@@ -115,41 +107,13 @@ if 'chvi' in chvi.columns:
     sm.set_array([])
     plt.colorbar(sm, ax=axes[0], fraction=0.03, pad=0.02, label='CHVI (0-1)')
 
-# Right: Redlining overlay simulation (since actual redlining data may not be available)
-# We'll use high SVI areas as a proxy for historically redlined areas
-if 'svi' in chvi.columns:
-    nyc_chvi = chvi[chvi['in_nyc']].copy()
-    vals = nyc_chvi['svi'].dropna()
-    norm = mpl.colors.Normalize(vmin=vals.min(), vmax=vals.max())
-    
-    nyc_chvi.plot(column='svi', cmap=YELLOW_RED, norm=norm,
-                  linewidth=0.25, edgecolor='white', ax=axes[1],
-                  missing_kwds={'color': '#e0e0e0'})
-    
-    # Outline high SVI areas (historically redlined areas - SVI > 0.6)
-    high_svi = nyc_chvi[nyc_chvi['svi'] > 0.6]
-    if not high_svi.empty:
-        high_svi.boundary.plot(ax=axes[1], edgecolor='red', linewidth=2, linestyle='--')
-    
-    axes[1].axis('off')
-    axes[1].set_title('Social Vulnerability Index (SVI)\nwith High-SVI Areas Outlined in Red (Redlining Proxy)', 
-                      fontsize=14, fontweight='bold')
-    
-    sm = mpl.cm.ScalarMappable(cmap=YELLOW_RED, norm=norm)
-    sm.set_array([])
-    plt.colorbar(sm, ax=axes[1], fraction=0.03, pad=0.02, label='SVI (0-1)')
-
-fig.suptitle('Heat Vulnerability and Historical Redlining Patterns in NYC', 
-             fontsize=16, fontweight='bold', y=1.02)
 fig.tight_layout()
-out1 = fig_path / 'chvi_with_redlining_overlay.png'
+out1 = fig_path / 'chvi.png'
 fig.savefig(out1, dpi=150, bbox_inches='tight')
 plt.show()
 print(f'Saved -> {out1}')
 
-# ============================================================
-# FIGURE 2: WBGT Over Time (30-Year Trend)
-# ============================================================
+# FIGURE 2: WBGT Over Time 
 print('\nCreating Figure 2: WBGT Over Time...')
 
 if not wbgt_df.empty:
@@ -227,9 +191,7 @@ if not wbgt_df.empty:
 else:
     print('Warning: WBGT data not available for time series visualization')
 
-# ============================================================
 # FIGURE 3: Urban Design Heat Vulnerability Map
-# ============================================================
 print('\nCreating Figure 3: Urban Design Heat Vulnerability...')
 
 # Load urban design data if available
@@ -286,9 +248,7 @@ if urban_fp.exists():
 else:
     print('Warning: Urban design data not found')
 
-# ============================================================
 # FIGURE 4: Adaptive Capacity Components
-# ============================================================
 print('\nCreating Figure 4: Adaptive Capacity Components...')
 
 if 'adaptive_score' in chvi.columns:
@@ -351,9 +311,7 @@ if 'adaptive_score' in chvi.columns:
     plt.show()
     print(f'Saved -> {out5}')
 
-# ============================================================
 # FIGURE 5: WBGT Over Time Map with Color Gradients
-# ============================================================
 print('\nCreating Figure 5: WBGT Over Time Map...')
 
 if not wbgt_df.empty:
@@ -435,9 +393,7 @@ if not wbgt_df.empty:
 else:
     print('Warning: WBGT data not available')
 
-# ============================================================
 # FIGURE 6: Social Vulnerability Outline Map
-# ============================================================
 print('\nCreating Figure 6: Social Vulnerability Outline Map...')
 
 # Try to find NewYork.csv or similar file with neighborhood codes
