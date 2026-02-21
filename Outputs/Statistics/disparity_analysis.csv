@@ -1,0 +1,6 @@
+borough,n_neighborhoods,n_high_svi,n_low_svi,mean_wbgt_high_svi,mean_wbgt_low_svi,mean_adaptive_high_svi,mean_adaptive_low_svi,mean_chvi_high_svi,mean_chvi_low_svi
+Brooklyn,69,69,0,17.25417519953134,,0.07561274317107183,,0.6225143144703028,
+Manhattan,38,0,0,,,,,,
+Bronx,49,49,0,17.39906424365636,,0.04508118876597153,,0.8609872788563574,
+Queens,83,83,0,17.24228771425289,,0.0482267331194433,,0.6195995506508768,
+Staten Island,23,0,0,,,,,,
